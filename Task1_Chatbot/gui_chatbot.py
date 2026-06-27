@@ -39,7 +39,7 @@ def chatbot_response():
     if user_text == "hi" or user_text == "hello":
 
         greetings = [
-            "Hello! Nice to meet you 😊",
+            "Hello! Nice to meet you ",
             "Hi there! How can I help you?",
             "Hey! Hope you're having a great day 🚀"
         ]
@@ -47,7 +47,7 @@ def chatbot_response():
         response = random.choice(greetings)
 
     elif "how are you" in user_text:
-        response = "I am doing great 😊"
+        response = "I am doing great "
 
     elif "your name" in user_text:
         response = "My name is Monish AI Bot."
@@ -63,8 +63,8 @@ def chatbot_response():
     elif "joke" in user_text:
 
         jokes = [
-            "Why do programmers hate nature? Too many bugs 😂",
-            "Why was Python so popular? Because it had great features 😄"
+            "Why do programmers hate nature? Too many bugs ",
+            "Why was Python so popular? Because it had great features "
         ]
 
         response = random.choice(jokes)
@@ -73,10 +73,10 @@ def chatbot_response():
         response = "AI means Artificial Intelligence."
 
     elif "motivate me" in user_text:
-        response = "Believe in yourself 🚀"
+        response = "Believe in yourself "
 
     elif "bye" in user_text:
-        response = "Goodbye! Have a productive day 😊"
+        response = "Goodbye! Have a productive day "
 
     else:
         response = "Sorry, I don't understand that yet."
