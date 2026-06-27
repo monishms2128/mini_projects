@@ -1,7 +1,7 @@
 import datetime
 import random
 print("=" * 45)
-print("     🤖 MONISH AI CHATBOT 🤖")
+print("      MONISH AI CHATBOT ")
 print("=" * 45)
 print("Type 'exit' to close the chatbot\n")
 
@@ -13,10 +13,10 @@ while True:
     if user_input == "hi" or user_input == "hello":
 
         greetings = [
-            "Hello! Nice to meet you 😊",
+            "Hello! Nice to meet you ",
             "Hi there! How can I help you?",
-            "Hey! Hope you're having a great day 🚀",
-            "Hello Monish! 😄"
+            "Hey! Hope you're having a great day ",
+            "Hello Monish! "
         ]
 
         print("Bot :", random.choice(greetings))
@@ -35,7 +35,7 @@ while True:
 
     # Asking location
     elif "where are you from" in user_input:
-        print("Bot : I live inside your computer 😄")
+        print("Bot : I live inside your computer ")
 
     # Asking time
     elif "time" in user_input:
@@ -49,7 +49,7 @@ while True:
 
     # Thank you response
     elif "thank you" in user_input or "thanks" in user_input:
-        print("Bot : You're welcome 😊")
+        print("Bot : You're welcome ")
 
     # Asking creator
     elif "who created you" in user_input:
@@ -57,7 +57,7 @@ while True:
 
     # Joke feature
     elif "joke" in user_input:
-        print("Bot : Why do programmers hate nature? Too many bugs 😂")
+        print("Bot : Why do programmers hate nature? Too many bugs ")
 
     # Asking name
     elif "your name" in user_input:
@@ -77,7 +77,7 @@ while True:
 
     # Exit
     elif user_input == "exit":
-        print("Bot : Goodbye Monish! Have a productive day 🚀")
+        print("Bot : Goodbye Monish! Have a productive day ")
         break
 
     # Unknown input
