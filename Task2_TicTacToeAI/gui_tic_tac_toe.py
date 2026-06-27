@@ -105,7 +105,7 @@ def ai_move():
                 text=f"Player: {player_score}   Computer: {computer_score}   Draws: {draw_score}"
             )
 
-            messagebox.showinfo("Game Over", "🤖 Computer Wins!")
+            messagebox.showinfo("Game Over", " Computer Wins!")
 
             reset_game()
 
@@ -144,7 +144,7 @@ def player_move(index):
                 text=f"Player: {player_score}   Computer: {computer_score}   Draws: {draw_score}"
             )
 
-            messagebox.showinfo("Game Over", "🎉 You Win!")
+            messagebox.showinfo("Game Over", " You Win!")
 
             reset_game()
 
