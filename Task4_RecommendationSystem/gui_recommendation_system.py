@@ -91,7 +91,7 @@ def recommend_movies():
 
             result_area.insert(
                 tk.END,
-                f"👉 {movie}\n"
+                f" {movie}\n"
             )
 
     else:
