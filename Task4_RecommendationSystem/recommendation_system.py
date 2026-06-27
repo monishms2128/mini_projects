@@ -5,7 +5,7 @@ import random
 movies = pd.read_csv("movies.csv")
 
 print("====================================")
-print("   🎬 MOVIE RECOMMENDATION SYSTEM")
+print("    MOVIE RECOMMENDATION SYSTEM")
 print("====================================\n")
 
 # Show available movies
@@ -38,7 +38,7 @@ if not movie_data.empty:
 random.shuffle(recommendation_list)
 
 for movie in recommendation_list[:3]:
-    print("👉", movie)
+    print(">", movie)
 
 else:
-    print("❌ Movie not found. Please try another movie.")
+    print("* Movie not found. Please try another movie.")
