@@ -118,7 +118,7 @@ while True:
         if check_winner():
 
             display_board()
-            print("🎉 Player Wins!")
+            print(" Player Wins!")
             break
 
         # Check draw
@@ -134,7 +134,7 @@ while True:
         if check_winner():
 
             display_board()
-            print("🤖 Computer Wins!")
+            print(" Computer Wins!")
             break
 
         # Check Draw Again
